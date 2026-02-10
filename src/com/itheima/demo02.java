@@ -10,8 +10,8 @@ public class demo02 {
     问：最终游戏人物血量是多少？
      */
         int maxHp = 200;
-        int hurt
-        int recover
+        int hurt;
+        int recover;
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入X：");
         hurt = sc.nextInt();

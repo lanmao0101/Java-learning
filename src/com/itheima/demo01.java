@@ -1,7 +1,10 @@
 package com.itheima;
 
 import java.text.DecimalFormat;
-
+/**
+ * 需求：
+ *      生成一个随机的体温，并判断是否>=38
+ */
 public class demo01 {
     //定义一个变量表示人的体温，对体温进行判断是否大于等于38度，如果超过打印语音警告
     public static void main(String[] args) {
