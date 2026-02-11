@@ -1,4 +1,4 @@
-package com.itheima;
+package com.day03;
 
 import java.util.Scanner;
 // 本程序演示了多个基础的Java编程练习，包括循环结构的应用：
