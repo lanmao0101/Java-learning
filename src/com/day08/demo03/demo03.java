@@ -7,7 +7,7 @@ public class demo03 {
     //要求3:大三期间张三减肥成功，身高增加2cm，体重减少3kg
     //要求4:打印大学毕业之后，张三的所有信息
     public static void main(String[] args) {
-        com.day08.demo03.Student student = new com.day08.demo03.Student();
+        Student student = new Student();
         student.setName("张三");
         student.setAge(18);
         student.setHeight(183);
