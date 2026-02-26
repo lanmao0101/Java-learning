@@ -20,7 +20,7 @@ class LotteryTicket {
 }
 
 public class demo08 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // 大乐透规则注释（保留不变）
         System.out.println("===== 大乐透购彩兑奖模拟系统 =====");
         Scanner sc = new Scanner(System.in);

@@ -1,7 +1,7 @@
 package com.day10.demo02;
 
 public class StaticVariableDemo {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         int[] arr = {10, 20, 50, 34, 100};
 
         // 调用静态方法遍历数组

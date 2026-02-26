@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class demo04 {
     // 键盘输入2个数组，可选择是否去重求并集，再计算并集的中间值
     // 偶数长度：中间两个数的平均值；奇数长度：中间一个数
-    public static void main(String[] args) {
+    static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         // ========== 1. 输入第一个数组 ==========

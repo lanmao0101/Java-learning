@@ -1,7 +1,7 @@
 package com.day04;
 
 public class demo02 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         //定义一个整数数组，存储5个元素并遍历
         int[] scores = new int[5];
         scores[0] = 100;

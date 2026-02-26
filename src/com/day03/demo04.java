@@ -3,7 +3,7 @@ package com.day03;
 import java.util.Scanner;
 
 public class demo04 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         /*小明在每次订外卖都会在多家平台对比，看谁的优惠力度更大
  已知：
      饱了么App：全场9折优惠

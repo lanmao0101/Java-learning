@@ -10,11 +10,11 @@ import java.util.List;
  */
 public class demo01 {
     // 静态变量 → 存储在【方法区（元空间）】
-    private static String STATIC_CONSTANT = "我是静态常量，存在方法区";
+    private static final String STATIC_CONSTANT = "我是静态常量，存在方法区";
     // 字符串常量 → 存储在【字符串常量池（属于方法区）】
     private static final String STRING_POOL_CONSTANT = "我是字符串常量池中的常量";
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // ========== 1. 栈内存演示 ==========
         // 局部变量（int、引用类型）→ 存储在【栈内存】
         int stackInt = 100; // 基本类型值直接存在栈
@@ -30,7 +30,7 @@ public class demo01 {
         List<String> heapList = new ArrayList<>(); // ArrayList对象在堆
         for (int i = 0; i < 5; i++) {
             // 每次new String()都会在堆创建新对象（区别于常量池）
-            heapList.add(new String("堆内存中的字符串" + i));
+            heapList.add("堆内存中的字符串" + i);
         }
         System.out.println("\n===== 堆内存演示 =====");
         System.out.println("堆中ArrayList的元素数量：" + heapList.size());

@@ -6,7 +6,7 @@ public class demo03 {
     //要求2:大二期间张三体重增加了10kg
     //要求3:大三期间张三减肥成功，身高增加2cm，体重减少3kg
     //要求4:打印大学毕业之后，张三的所有信息
-    public static void main(String[] args) {
+    static void main(String[] args) {
         Student student = new Student();
         student.setName("张三");
         student.setAge(18);

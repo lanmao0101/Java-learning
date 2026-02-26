@@ -10,7 +10,7 @@ import java.util.Scanner;
 // 6. 实现斐波那契数列，计算并输出第10项的值
 // 7. 根据公式sn=1-2+3-4+5-6+...+n计算前n项的和，其中n由用户输入
 public class demo08 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         //第一个测试功能
         System.out.println("------------------------");
         //输出一个金字塔的结构

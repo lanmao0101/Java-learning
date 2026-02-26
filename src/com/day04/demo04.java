@@ -1,7 +1,7 @@
 package com.day04;
 
 public class demo04 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         //随机生成一个整数数组
         int[] scores = new int[5];
         for (int i = 0; i < scores.length; i++) {

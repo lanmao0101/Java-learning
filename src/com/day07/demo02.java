@@ -12,7 +12,7 @@ public class demo02 {
      * 主函数，执行红包分发逻辑
      * @param args 命令行参数（未使用）
      */
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // 给定两个整数M和N，M表示红包总金额，N表示红包个数
         // 红包不能被1人全部领取，每人领取的红包不能小于0.01元
         // 当N为1时，红包金额只能为M。

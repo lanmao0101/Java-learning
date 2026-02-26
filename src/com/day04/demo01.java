@@ -1,7 +1,7 @@
 package com.day04;
 
 public class demo01 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // ==================== 方式1：静态初始化（声明时直接赋值，无需指定长度） ====================
         // 适合知道具体元素的场景（你之前出错的核心就是没掌握这种方式的正确写法）
         int[] scores = {90, 85, 95, 88}; // 存储4个成绩的int数组

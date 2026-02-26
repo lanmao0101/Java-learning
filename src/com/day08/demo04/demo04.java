@@ -2,7 +2,7 @@ package com.day08.demo04;
 
 // 测试类demo04
 class demo04 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // 创建第一个学生对象
         Student stu1 = new Student();
         stu1.setName("张三");

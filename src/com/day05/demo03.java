@@ -3,7 +3,7 @@ package com.day05;
 import java.util.Scanner;
 
 public class demo03 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         //班主任需要统计10名学生的数学成绩(0-100分)，
         //计算及格率，平均分，并找出最高分。
         //要求1:键盘录入10名学生的成绩，存入数组。超出范围，提示“成绩无效，请重新输入”。

@@ -1,7 +1,7 @@
 package com.day02.ceshi;
 
 public class gongjiceshi {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         /*
             我方：叉子           对方：长手
             攻击：220            攻击：210

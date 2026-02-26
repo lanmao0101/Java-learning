@@ -3,7 +3,7 @@ package com.day03;
 import java.util.Scanner;
 
 public class demo06 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         /*
         需求：很多App都有不同的优惠券
         假设，现在有以下优惠券

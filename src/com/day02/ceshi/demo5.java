@@ -3,7 +3,7 @@ package com.day02.ceshi;
 import java.util.Scanner;
 
 public class demo5 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         //键盘输入一个秒数
         Scanner sc = new Scanner(System.in);
         //按照秒数进行转换

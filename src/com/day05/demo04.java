@@ -3,7 +3,7 @@ package com.day05;
 import java.util.Scanner;
 
 public class demo04 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         //某快递公司的运费规则如下(首重1kg，超出部分按kg计算，不足1kg按1kg算):
         //首重1kg:10元;
         //超出1-5kg:每kg加2元;

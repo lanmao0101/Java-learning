@@ -3,7 +3,7 @@ package com.day03;
 import java.util.Scanner;
 
 public class demo07 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         /*
         需求：键盘录入星期数，显示今天的减肥活动。
         - 周一：跑步

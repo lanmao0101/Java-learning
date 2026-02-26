@@ -6,7 +6,7 @@ package com.day10.demo01;
  */
 public class StaticVariableDemo {
     // 1. 实例变量（非静态）：每个对象都有独立的一份
-    private String name; // 每个学生的姓名（独有）
+    private final String name; // 每个学生的姓名（独有）
 
     // 2. 静态变量（类变量）：所有对象共享同一份
     // 用途：统计学生总数、共享常量、全局配置等
@@ -29,7 +29,7 @@ public class StaticVariableDemo {
         System.out.println("------------------------");
     }
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // 测试1：创建第一个学生对象
         StaticVariableDemo s1 = new StaticVariableDemo("张三");
         s1.showStudentInfo();
@@ -46,7 +46,7 @@ public class StaticVariableDemo {
 
         // 测试4：修改静态变量（所有对象都会受影响）
         StaticVariableDemo.studentCount = 100; // 手动修改总数
-        System.out.println("修改后学生总数：" + s1.studentCount); // 输出100（s1的计数也变了）
-        System.out.println("修改后学生总数：" + s2.studentCount); // 输出100（s2的计数也变了）
+        System.out.println("修改后学生总数：" + studentCount); // 输出100（s1的计数也变了）
+        System.out.println("修改后学生总数：" + studentCount); // 输出100（s2的计数也变了）
     }
 }

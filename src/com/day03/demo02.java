@@ -3,7 +3,7 @@ package com.day03;
 import java.util.Scanner;
 
 public class demo02 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
     /*
     需求：初始最大生命200，受到X点伤害，技能恢复Y点血，X和Y由键盘录入而来
     假设，游戏人物不会死亡，最少1点血

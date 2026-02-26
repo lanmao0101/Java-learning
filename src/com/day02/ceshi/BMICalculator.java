@@ -3,7 +3,7 @@ package com.day02.ceshi;
 import java.util.Scanner;
 
 public class BMICalculator {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // 1. 创建Scanner对象，用于接收用户输入
         Scanner scanner = new Scanner(System.in);
 

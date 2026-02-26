@@ -3,7 +3,7 @@ package com.day04;
 import java.util.Scanner;
 
 public class demo07 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         //给定一个整数数组nums和一个整数目标值target.
         //请你在该数组中找出和为目标值target的那两个整数.列出所有满足条件的组合
         //并输出它们的数组索引。

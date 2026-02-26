@@ -1,7 +1,7 @@
 package com.day08.demo01;
 
 public class demo01 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         //创建手机对象
         Phone phone1 = new Phone();
         phone1.brand = "华为";

@@ -1,7 +1,7 @@
 package com.day02.literal;
 
 public class litrealdemo {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         //输出恐龙信息：霸王龙 8岁 11.5m 公
 
         //输出恐龙的名字

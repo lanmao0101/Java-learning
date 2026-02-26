@@ -7,7 +7,7 @@ public class demo02 {
     //要求1:小狗的年龄:0~15岁
     //要求2:打印小狗所有的信息:小白，2岁
     //要求3:调用吃骨头的方法打印效果:2岁的小白，正在吃骨头
-    public static void main(String[] args) {
+    static void main(String[] args) {
         //定义3条小狗对象
         Dog dog1 = new Dog();
         Dog dog2 = new Dog();

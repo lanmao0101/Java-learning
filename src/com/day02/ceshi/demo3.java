@@ -3,7 +3,7 @@ package com.day02.ceshi;
 import java.util.Scanner;
 
 public class demo3 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         //定义一个scanner对象
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入你的姓名：");

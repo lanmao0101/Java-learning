@@ -73,7 +73,7 @@ public class demo01 {
     }
 
     // 主方法：测试所有用法
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // 测试1：无参构造器（内部调用3参数构造器）
         demo01 demo1 = new demo01();
         demo1.showInfo();

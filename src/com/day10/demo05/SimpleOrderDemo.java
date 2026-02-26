@@ -13,7 +13,7 @@ enum OrderStatus {
     OrderStatus(String name) {
         this.name = name;
     }
-    private OrderStatus() {
+    OrderStatus() {
         System.out.println("执行此行"+ this.name);
     }
     public String getName() {
@@ -23,7 +23,7 @@ enum OrderStatus {
 
 // 第二步：测试枚举的使用
 public class SimpleOrderDemo {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // 1. 直接使用枚举常量表示订单状态
         OrderStatus currentStatus = OrderStatus.PENDING_PAYMENT;
         System.out.println("当前订单状态：" + currentStatus.getName());

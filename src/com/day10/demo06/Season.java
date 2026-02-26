@@ -15,7 +15,7 @@ public enum Season {
     private final String desc;
 
     // 4. 枚举类的构造方法必须是 private 修饰，不让外界创建本类的对象
-    private Season(String name, String desc) {
+    Season(String name, String desc) {
         this.name = name;
         this.desc = desc;
     }

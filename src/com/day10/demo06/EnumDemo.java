@@ -2,7 +2,7 @@ package com.day10.demo06;
 
 // 测试类
 public class EnumDemo {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // 使用枚举项
         Season spring = Season.SPRING;
         System.out.println(spring.getName() + "：" + spring.getDesc());

@@ -49,7 +49,7 @@ public class FinalAllUsagesDemo {
     }
 
     // ====================== 程序入口 ======================
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // 演示final变量用法
         FinalAllUsagesDemo demo = new FinalAllUsagesDemo(99);
         System.out.println("=== final修饰变量演示 ===");
@@ -101,7 +101,7 @@ public class FinalAllUsagesDemo {
 
     // 辅助类：演示final引用类型
     static class Person {
-        private String name;
+        private final String name;
         private int age;
 
         public Person(String name, int age) {

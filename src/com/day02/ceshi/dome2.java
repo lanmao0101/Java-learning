@@ -2,7 +2,7 @@ package com.day02.ceshi;
 
 // 修正1：类名改为大驼峰 Demo2（符合Java命名规范）
 public class dome2 {
-    public static void main(String[] args) { // 核心修正：添加main方法（程序入口）
+    static void main(String[] args) { // 核心修正：添加main方法（程序入口）
         // 所有变量和打印语句都移入main方法中
         // 定义char数据类型变量
         char ch = 'a';

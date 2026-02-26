@@ -1,7 +1,7 @@
 package com.day04;
 
 public class demo06 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // 随机生成一个有序（先排序）且一定包含重复元素的数组
         int[] scores = new int[10];
         // 关键修改：将随机数范围从1-100改为1-8（数组长度10，范围8 < 10，必然有重复）

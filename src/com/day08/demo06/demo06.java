@@ -2,7 +2,7 @@ package com.day08.demo06;
 
 // 遵循Java命名规范，类名首字母大写（原demo06改为Demo06）
 public class demo06 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // 测试构造方法的使用
         // 1. 调用无参数构造方法创建对象
         Person p1 = new Person();

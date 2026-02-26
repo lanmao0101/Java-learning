@@ -3,7 +3,7 @@ package com.day07;
 public class damo01 {
     // 给出一个数组和一个数字，找出所有等于数字的元素并删除，生成对应长度的新数组
     // 数组是随机生成1~4的数组，长度20
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // 1. 生成原始数组（长度20，元素1-4）
         int[] arr = new int[20];
         for (int i = 0; i < arr.length; i++) {

@@ -3,7 +3,7 @@ package com.day03;
 import java.util.Scanner;
 
 public class demo09 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         //第一个测试功能
         System.out.println("------------------------");
         // 计算10000元、年利率1.7%，多少年能翻倍

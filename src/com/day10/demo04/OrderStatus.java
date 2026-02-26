@@ -33,7 +33,7 @@ class Order {
     // 订单核心属性
     private String orderId;        // 订单编号
     private String productName;    // 商品名称
-    private double amount;         // 订单金额
+    private final double amount;         // 订单金额
     private OrderStatus status;    // 订单状态（枚举类型）
 
     // 构造方法：初始化订单，默认状态为“待支付”
@@ -111,7 +111,7 @@ class Order {
  * 测试类：演示订单状态的完整流转
  */
 class OrderStatusDemo {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // 1. 创建订单（初始状态：待支付）
         Order order = new Order("ORD20260224001", "Java编程思想（第4版）", 89.00);
         System.out.println("📌 订单创建成功：" + order.getOrderInfo());

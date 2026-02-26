@@ -1,7 +1,7 @@
 package com.day04;
 
 public class demo05 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         //随机生成10个不重复的0~100的整数，保存到整数数组中
         int[] scores = new int[10];
         for (int i = 0; i < scores.length; i++) {

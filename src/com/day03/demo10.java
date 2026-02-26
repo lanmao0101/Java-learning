@@ -1,7 +1,7 @@
 package com.day03;
 
 public class demo10 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // ====== 你原本的基础示例（保留不变） ======
         System.out.println("----- 基础示例：for循环中的break -----");
         //学习break关键字，跳出循环（修正了你原代码的beak拼写错误）

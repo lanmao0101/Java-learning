@@ -3,7 +3,7 @@ package com.day03;
 import java.util.Scanner;
 
 public class demo05 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // 卡拉兹函数：对输入数字，偶数则除以2，奇数则3*n+1
         Scanner sc = new Scanner(System.in);
 

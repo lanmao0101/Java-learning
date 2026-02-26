@@ -7,7 +7,7 @@ import java.text.DecimalFormat;
  */
 public class demo01 {
     //定义一个变量表示人的体温，对体温进行判断是否大于等于38度，如果超过打印语音警告
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // 1. 生成35~42之间的随机体温（更符合人体实际体温范围，原代码是35~45，偏高）
         double rawTemperature = Math.random() * 7 + 35;
 

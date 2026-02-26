@@ -3,7 +3,7 @@ package com.day05;
 import java.util.Scanner;
 
 public class demo02 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         //跳水比赛有五个评委打分，分数在0~100之间。最终得分会去掉一个最高分，去掉一个最低分，
         //剩余的分数再求平均数，改平均数为选手最终得分。
         //要求1:利用键盘录入5个整数存入数组当中，如果分数超出范围需要重新录入

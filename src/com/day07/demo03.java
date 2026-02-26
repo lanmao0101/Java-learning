@@ -12,7 +12,7 @@ public class demo03 {
      * 主函数，执行红包分发逻辑
      * @param args 命令行参数（未使用）
      */
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // 定义红包金额（单位：分）
         int money = 10000;
         // 定义红包个数
