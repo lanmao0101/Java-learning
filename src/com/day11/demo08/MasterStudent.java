@@ -13,4 +13,9 @@ public class MasterStudent extends Student{
     public void study() {
         System.out.println(getName()+"正在攻读硕士学位");
     }
+    // 重写睡觉方法：豪华版学生公寓睡觉
+    @Override
+    public void sleep() {
+        System.out.println(getName()+"正在豪华版学生公寓睡觉");
+    }
 }
