@@ -20,6 +20,7 @@ public class Test {
         ((TableTennisCoach) tableTennisCoach).speakEnglish();
         System.out.println("------------------");
 
+
         // 4. 篮球教练（仅继承）
         Person basketballCoach = new BasketballCoach("赵六", 40);
         basketballCoach.work();
