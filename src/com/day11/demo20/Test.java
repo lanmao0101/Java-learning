@@ -2,6 +2,7 @@ package com.day11.demo20;
 
 public class Test {
     public static void main(String[] args) {
+
         // 1. 乒乓球运动员（继承 + 实现接口）
         Person tableTennisAthlete = new TableTennisAthlete("张三", 20);
         tableTennisAthlete.work();
@@ -19,7 +20,6 @@ public class Test {
         ((TableTennisCoach)tableTennisCoach).speakEnglish();
         ((TableTennisCoach) tableTennisCoach).speakEnglish();
         System.out.println("------------------");
-
 
         // 4. 篮球教练（仅继承）
         Person basketballCoach = new BasketballCoach("赵六", 40);
